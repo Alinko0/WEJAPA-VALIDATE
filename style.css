@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    place-items:center;
+    background-color: aliceblue;
+    font-size: 62.5%;
+}
+main{
+    margin-top: 5rem;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+.form{
+    display: grid;
+    grid-gap: 2rem;
+    font-family: tahoma;
+    background-color: #fffe;
+    border-radius: 6px;
+    padding: 2rem;
+}
+.form h2{
+    font-size: 2rem;
+    font-family:tahoma;
+    text-transform: capitalize;
+}
+.inputs{
+    display:flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-family: tahoma;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    justify-self: center;
+    border: none;
+    padding: .7rem;
+    border-radius: 5px;
+    background-color:orangered;
+    font-size: .9rem;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+input{
+    padding: .8rem;
+    border: none;
+    border: 1px solid #000;
+    border-radius: 3px;
+
+}
+.pcontents{
+    color: #7fffda;
+    font-size: 1rem;
+    font-style: italic;
+}
+.perror{
+    color: rgba(229, 65, 15, 0.564);
+    font-size: 1rem;
+    font-style: italic;
+}
