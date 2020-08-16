@@ -20,7 +20,7 @@ form.addEventListener('submit', function (e) {
   let mailformat = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
   
    
-   if (wordcount.length === 3) {
+   if (wordcount.length === 2) {
       success(fullName,"successful")  
       
      }
